@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 40px;
+    padding: 30px;
     font-family: Roboto, sans-serif;
     font-size: 100%;
     color: #444;
@@ -8,6 +8,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
+
+a {
+    color: #c80000;
+    text-decoration: none;
+    border-bottom: 3px solid #ccc;
+    transition: border 0.25s ease-in;
+}
+
+a:hover {
+    border-color: #999;
 }
 
 h1, h2,
@@ -23,4 +34,14 @@ pre, code {
     margin: 1rem 0;
     color: #c80000;
     line-height: 1;
+}
+
+pre {
+    padding: 2px;
+}
+
+@media (max-width: 480px) {
+    pre {
+        overflow-x: scroll;
+    }
 }
