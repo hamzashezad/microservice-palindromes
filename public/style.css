@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+    color: #444;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2,
+h3, h4 {
+    margin: 1rem 0;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+pre, code {
+    margin: 1rem 0;
+    color: #c80000;
+    line-height: 1;
+}

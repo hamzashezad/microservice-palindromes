@@ -1,0 +1,17 @@
+{
+    "name": "microservice-palindrome",
+    "version": "0.0.1",
+    "description": "Checks is the string provided is a palindrome or not",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.15.3",
+        "helmet": "^3.6.1"
+    },
+    "repository": {
+        "url": "hthttps://github.com/hamzashezad/microservice-palindromes"
+    },
+    "license": "MIT"
+}
